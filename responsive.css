@@ -1,0 +1,291 @@
+@media print { }
+
+@media only screen and (min-width: 320px){
+
+    .clock{
+        padding: 1.8em;
+    }
+
+    .clock h1 {
+        margin-bottom: .5em;
+        font-size: 2.4em;
+    }
+
+    .clock h2 {
+        margin-bottom: 3em;
+        font-size: .8em;
+    }
+
+    .menu {
+        width: 90%;
+    }
+
+    .menu button {
+        border: 1px solid #1a4268;
+        padding: .8em 1.2em;
+        margin: 0 .6em;
+        font-size: .8em;
+    }
+    
+    .menu button:hover {
+        border: 1px solid #fff;
+    }
+    
+    .menu button:disabled {
+        border: 1px solid #fff;
+    }
+    
+    .display {
+        padding: .5em;
+        font-size: 1.6em;
+        width: 90%;
+        margin-bottom: 1.2em;
+        text-align: center;
+    }
+    
+    .mili {
+        font-size: .5em;
+    }
+
+    .btnText{
+        display: none;
+    }
+
+    .btnIcon{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .clock{
+        padding: 1.8em;
+        width: 90%;
+    }
+
+    .clock h1 {
+        margin-bottom: .5em;
+        font-size: 2.8em;
+    }
+
+    .clock h2 {
+        margin-bottom: 3em;
+        font-size: 1em;
+    }
+
+    .menu {
+        width: 90%;
+    }
+
+    .menu button {
+        border: 1px solid #1a4268;
+        padding: 1em 1.6em;
+        margin: .6em 0;
+        font-size: .8em;
+    }
+    
+    .menu button:hover {
+        border: 1px solid #fff;
+    }
+    
+    .menu button:disabled {
+        border: 1px solid #fff;
+    }
+    
+    .display {
+        padding: .5em;
+        font-size: 2.2em;
+        width: 90%;
+        margin-bottom: 1.2em;
+        text-align: center;
+    }
+    
+    .mili {
+        font-size: .5em;
+    }
+
+    .btnText{
+        display: none;
+    }
+
+    .btnIcon{
+        font-size: 1.6em;
+    }
+ } 
+@media only screen and (min-width: 600px) { 
+    .clock{
+        padding: 1.8em;
+        width: 90%;
+    }
+
+    .clock h1 {
+        margin-bottom: .5em;
+        font-size: 2.8em;
+    }
+
+    .clock h2 {
+        margin-bottom: 3em;
+        font-size: 1em;
+    }
+
+    .menu {
+        width: 80%;
+    }
+
+    .menu button {
+        border: 1px solid #1a4268;
+        padding: 1em 1.6em;
+        margin: .6em 0;
+        font-size: .8em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu button:hover {
+        border: 1px solid #fff;
+    }
+    
+    .menu button:disabled {
+        border: 1px solid #fff;
+    }
+    
+    .display {
+        padding: .5em;
+        font-size: 2.6em;
+        width: 90%;
+        margin-bottom: 1.2em;
+        text-align: center;
+    }
+    
+    .mili {
+        font-size: .5em;
+    }
+
+    .btnText{
+        display: inline-block;
+        margin-left: .6em;
+    }
+
+    .btnIcon{
+        font-size: 1.6em;
+    }
+} 
+@media only screen and (min-width: 992px) {
+    .clock{
+        padding: 1.8em;
+        width: 100%;
+    }
+
+    .clock h1 {
+        margin-bottom: .5em;
+        font-size: 3.4em;
+    }
+
+    .clock h2 {
+        margin-bottom: 2em;
+        font-size: 1em;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    .menu button {
+        border: 1px solid #1a4268;
+        padding: 1em 1.6em;
+        margin: .6em 0;
+        font-size: .8em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu button:hover {
+        border: 1px solid #fff;
+    }
+    
+    .menu button:disabled {
+        border: 1px solid #fff;
+    }
+    
+    .display {
+        padding: .5em;
+        font-size: 3em;
+        font-weight: bold;
+        width: 90%;
+        margin-bottom: .8em;
+        text-align: center;
+    }
+    
+    .mili {
+        font-size: .5em;
+    }
+
+    .btnText{
+        display: inline-block;
+        margin-left: .6em;
+    }
+
+    .btnIcon{
+        font-size: 1.6em;
+    }
+ } 
+@media only screen and (min-width: 1382px) {
+    .clock{
+        padding: 1.8em;
+        width: 100%;
+    }
+
+    .clock h1 {
+        margin-bottom: .5em;
+        font-size: 4em;
+    }
+
+    .clock h2 {
+        margin-bottom: 5em;
+        font-size: 1.2em;
+    }
+
+    .menu {
+        width: 40%;
+    }
+
+    .menu button {
+        border: 3px solid #1a4268;
+        padding: 1em 3em;
+        margin: .6em 0;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu button:hover {
+        border: 3px solid #fff;
+    }
+    
+    .menu button:disabled {
+        border: 3px solid #fff;
+    }
+    
+    .display {
+        padding: .5em;
+        font-size: 4em;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 1.8em;
+        text-align: center;
+    }
+    
+    .mili {
+        font-size: .5em;
+    }
+
+    .btnText{
+        display: inline-block;
+        margin-left: .8em;
+    }
+
+    .btnIcon{
+        font-size: 1.8em;
+    }
+} 
+

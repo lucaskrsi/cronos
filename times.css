@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock h1 {
+    color: #fff;
+    margin-bottom: .2em;
+    font-size: 4em;
+    font-family: 'Aclonica', Verdana, sans-serif;
+}
+
+.clock h2 {
+    color: #fff;
+    margin-bottom: .2em;
+    font-size: 1.2em;
+    font-family: 'Aclonica', Verdana, sans-serif;
+}
+
+.clock h2 span{
+    font-family: 'Aclonica', Verdana, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu button {
+    appearance: none;
+    border: 2px solid #1a4268;
+    color: #1a4268;
+    background-color: #fff;
+    padding: 1em 2em;
+    margin: 0 1em;
+    transition: ease-in .2s;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.menu button:hover {
+    background-color: #1a4268;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.menu button:disabled {
+    background-color: #999;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: default;
+}
+
+.display {
+    padding: 1em;
+    color: #fff;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.mili {
+    font-size: .4em;
+}

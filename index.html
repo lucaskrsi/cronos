@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./times.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <meta name="author" content="Lucas Pereira">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="description" content="Cronômetro digital online">
+    <title>Cronos</title>
+</head>
+
+<body>
+    <div class="clock">
+        <h1>CRONOS</h1>
+        <h2><span>-</span> Seu cronometro digital na web <span>-</span></h2>
+        <div class="display">
+            <div>
+                <span id="m">00</span>
+                :
+                <span id="s">00</span>
+                <span id="ms" class="mili">00</span>
+            </div>
+        </div>
+        <div class="menu">
+            <button id='start' onclick="startTimer()">
+                <span class="btnIcon"><i class="fa-solid fa-play"></i></span>
+                <span class="btnText">Start</span> 
+            </button>
+            <button id='pause' onclick="pauseTimer()">
+                <span class="btnIcon"><i class="fa-solid fa-pause"></i></span>
+                <span class="btnText">Pause</span> 
+            </button>
+            <button id='stop' onclick="stopTimer()">
+                <span class="btnIcon"><i class="fa-solid fa-stop"></i></span>
+                <span class="btnText">Stop</span> 
+            </button>
+        </div>
+    </div>
+
+    <script src="./timer.js"></script>
+</body>
+
+</html>
